@@ -1,0 +1,38 @@
+{
+  "name": "tk-react",
+  "version": "0.1.0",
+  "scripts": {
+    "debugstart": "webpack-dev-server --port 8082",
+    "clean&build-dev": "shx rm -rf build dist && webpack -d --mode development"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "copy-webpack-plugin": "^5.0.3",
+    "file-loader": "^4.1.0",
+    "font-awesome": "^4.7.0",
+    "font-awesome-loader": "^1.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "json-server": "^0.15.0",
+    "moment": "^2.24.0",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.9",
+    "react-bootstrap-table": "^4.3.1",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6",
+    "babel-loader": "^8.0.6",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "css-loader": "^3.1.0",
+    "style-loader": "^0.23.1",
+    "@babel/preset-react": "^7.0.0",
+    "less-loader": "^5.0.0",
+    "less": "^3.9.0",
+    "sass-loader": "^7.1.0",
+    "node-sass": "^4.12.0"
+  }
+}
